@@ -1,7 +1,7 @@
-import pangu from 'pangu-ts'
-import MarkdownIt from 'markdown-it'
-import Token from 'markdown-it/lib/token'
-import { escapeHtml, isWhiteSpace } from 'markdown-it/lib/common/utils'
+import pangu from 'pangu-ts';
+import MarkdownIt from 'markdown-it';
+import Token from 'markdown-it/lib/token';
+import { escapeHtml, isWhiteSpace } from 'markdown-it/lib/common/utils.js';
 
 function getPrevChar(tokens: Token[], index: number) {
   let prevChar = '';
@@ -18,7 +18,7 @@ function getPrevChar(tokens: Token[], index: number) {
   return prevChar;
 }
 
-export default (md: MarkdownIt, options: any = {}) => {
+export default function (md: MarkdownIt, options: any = {}): void {
   const { additionalRules = ['code_inline'] } = options;
 
   md.renderer.rules.text = (tokens, index, options, env, self) => {

@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-pangu-ts",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A markdown-it plugin with pangu-ts",
   "author": "MengLuoRJ <mengluor@gmail.com>",
   "license": "MIT",
@@ -23,11 +23,11 @@
   "scripts": {
     "build": "tsc"
   },
-  "devDependencies": {
-    "markdown-it": "^13.0.1",
-    "pangu-ts": "^0.0.1"
+  "dependencies": {
+    "pangu-ts": "^0.0.2"
   },
-  "peerDependencies": {
-    "@types/markdown-it": "^12.2.3"
+  "devDependencies": {
+    "@types/markdown-it": "^12.2.3",
+    "markdown-it": "^13.0.1"
   }
 }
