@@ -1,0 +1,33 @@
+{
+  "name": "markdown-it-pangu-ts",
+  "version": "0.0.1",
+  "description": "A markdown-it plugin with pangu-ts",
+  "author": "MengLuoRJ <mengluor@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "markdown-it",
+    "markdown-it-plugin",
+    "pangu",
+    "text-spacing"
+  ],
+  "homepage": "https://github.com/MengLuoRJ/markdown-it-pangu-ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MengLuoRJ/markdown-it-pangu-ts"
+  },
+  "bugs": {
+    "url": "https://github.com/MengLuoRJ/markdown-it-pangu-ts/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "markdown-it": "^13.0.1",
+    "pangu-ts": "^0.0.1"
+  },
+  "peerDependencies": {
+    "@types/markdown-it": "^12.2.3"
+  }
+}
