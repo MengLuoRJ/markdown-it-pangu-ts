@@ -1,2 +1,5 @@
 import MarkdownIt from 'markdown-it';
-export default function (md: MarkdownIt, options?: any): void;
+
+declare function export_default(md: MarkdownIt, options?: any): void;
+
+export { export_default as default };
