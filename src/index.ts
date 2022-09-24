@@ -1,7 +1,7 @@
 import pangu from 'pangu-ts';
 import MarkdownIt from 'markdown-it';
 import Token from 'markdown-it/lib/token';
-import { escapeHtml, isWhiteSpace } from 'markdown-it/lib/common/utils.js';
+import { escapeHtml, isWhiteSpace } from 'markdown-it/lib/common/utils';
 
 function getPrevChar(tokens: Token[], index: number) {
   let prevChar = '';
